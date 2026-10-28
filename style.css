@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bangers", system-ui;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("img/BG2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.nome {
+    color: #ff3cac;
+    font-size: 360px;
+    position: absolute;
+    bottom: 500px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.personagem {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 700px;
+    z-index: 2;
+}
+
+.textos {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    z-index: 3;
+}
+
+.etiqueta {
+    font-size: 26px;
+    color: #ffd319;
+}
+
+h1 {
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.texto-apoio {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.menu {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 3;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.voce {
+    background-color: #ffd319;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+    .nome {
+        font-size: 90px;
+        bottom: 250px;
+    }
+    .personagem {
+        height: 380px;
+        bottom: 150px; 
+    }
+
+    .textos {
+        position: absolute;
+        bottom: 95px; 
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+
+    .etiqueta {
+        font-size: 16px;
+    }
+
+    .texto-apoio {
+        font-size: 11px;
+    }
+    .menu {
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .avatar {
+        width: 48px;
+        height: 48px;
+    }
+
+    .voce {
+        padding: 12px;
+    }
+}
