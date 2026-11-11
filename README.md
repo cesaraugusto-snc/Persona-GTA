@@ -1,6 +1,6 @@
 # 🎮 Seu Persona GTA
 
-🔗 **Acesse o site:** [https://seu-link-aqui.com](https://seu-link-aqui.com)
+🔗 **Acesse o site:**  https://cesaraugusto-snc.github.io/Persona-GTA/)
 Página interativa de seleção de personagem inspirada no visual de GTA. Você escolhe uma lenda de **Dev City** ou envia uma selfie e uma IA transforma a sua foto em um personagem de videogame.
 
 
